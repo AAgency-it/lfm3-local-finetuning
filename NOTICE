@@ -11,7 +11,7 @@ Third-party materials NOT included in this repository:
   - commercial use is licensed only to organisations below 10 million US dollars of annual revenue; above that
     threshold, commercial use of the model or of a derivative work is not licensed;
   - this threshold also applies to anyone who reuses an adapter or a fine-tuned model derived from LFM3,
-    including any adapter we may publish here;
+    including any adapter you train with the scripts in this repository;
   - the license grants no rights to Liquid AI's trademarks.
   This repository does not redistribute the base weights and, today, does not publish fine-tuned weights or adapters.
 - llama.cpp (https://github.com/ggml-org/llama.cpp): used to run the model locally; not included in this repository,

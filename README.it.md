@@ -87,7 +87,7 @@ sull'estrazione e da **0,2005** a **0,9925** sulle righe di log (baseline: regex
 stessi generatori dei dati di addestramento, con semi diversi (stessa distribuzione), e 19 delle 50 frasi di estrazione scritte a mano
 seguono un modello di frase che usa anche il generatore (`tools/check_template_overlap.py`): mostra che l'adattatore ha imparato questi due
 formati, non come va su testi veri. Non abbiamo un numero a parte per le 50 frasi scritte a mano: il giro ha registrato un punteggio per
-compito, e i pesi dell'adattatore non sono ancora scaricati. Lo 0,016 del modello di base non vuol dire un modello rotto: la corrispondenza
+compito, e i pesi dell'adattatore allora non erano scaricati. Lo 0,016 del modello di base non vuol dire un modello rotto: la corrispondenza
 esatta forzata conta giusta una risposta solo se ogni token della risposta attesa, in questo formato d'uscita esatto, è il più probabile
 per il modello, e il modello di base questo formato non l'ha mai visto.
 
@@ -127,7 +127,7 @@ In `tools/` ci sono i controlli che lanciamo prima di ogni commit: `check_clean.
 | Codice, generatori di dati sintetici, il banco di 50 frasi per l'estrazione, script di addestramento | I due modelli addestrati: il secondo ha visto le nostre note interne |
 | Numeri aggregati, con clienti e categorie rinominati (set A-D, cat 1-12) | Le nostre note, i banchi costruiti da esse, i titoli dei task e i log veri |
 
-L'adattatore generico batte il modello di base sul suo banco; i pesi non sono ancora in questo repository e, se li pubblicheremo, avranno la licenza LFM allegata (vedi [NOTICE](NOTICE)).
+L'adattatore generico batte il modello di base sul suo banco. Pubblichiamo il codice e i numeri, non i pesi: per avere l'adattatore lancia tu `training/build_generic.py` e `training/kaggle_notebook.ipynb` (circa 25 minuti su una GPU gratuita). Tutto ciò che addestri a partire da LFM3 ricade sotto la licenza LFM (vedi [NOTICE](NOTICE)).
 
 ## Licenze
 

@@ -85,8 +85,8 @@ synthetic bench of 649 rows built with another seed, forced exact match went fro
 to **0.9925** on log lines (baselines: regex **0.884**, "always noise" **0.774**). The bench comes from the same generators as the
 training data, with different seeds (in distribution), and 19 of the 50 hand-written extraction sentences in it follow a template the
 generator also uses (`tools/check_template_overlap.py`): it shows the adapter learned these two formats, not how it does on real text.
-We have no separate number for the 50 hand-written sentences: the run logged one score per task, and the adapter weights are not
-downloaded yet. The base model's 0.016 does not mean a broken model: forced exact match counts an answer as right only if every
+We have no separate number for the 50 hand-written sentences: the run logged one score per task, and the adapter weights were not
+downloaded at the time. The base model's 0.016 does not mean a broken model: forced exact match counts an answer as right only if every
 token of the expected answer, in this exact output format, is the model's most likely one, and the base model never saw this format.
 
 ```
@@ -125,7 +125,7 @@ Tested on Windows 11 with Python 3.14. The skills use only the standard library;
 | Code, synthetic data generators, the 50-sentence extraction bench, training scripts | The two fine-tuned models: the second one saw our internal notes |
 | Aggregate numbers, with customers and categories renamed (set A-D, cat 1-12) | Our notes, the benches built from them, real task titles and logs |
 
-The generic adapter beats the base model on its bench; its weights are not in this repository yet and, if we publish them, they will come with the LFM license attached (see [NOTICE](NOTICE)).
+The generic adapter beats the base model on its bench. We publish the code and the numbers, not the weights: to get the adapter, run `training/build_generic.py` and `training/kaggle_notebook.ipynb` yourself (about 25 minutes on a free GPU). Anything you train from LFM3 falls under the LFM license (see [NOTICE](NOTICE)).
 
 ## Licenses
 
