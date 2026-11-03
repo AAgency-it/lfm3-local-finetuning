@@ -1,0 +1,9 @@
+$ python -c "from lfm3_local import extract; print(extract.run('Il saldo di 450 euro va versato entro il 5 dicembre 2026.'))"
+{'outcome': 'accepted', 'data': '2026-12-05', 'importo_euro': 450.0, 'source': 'regex', 'ms': 0}
+$ python tools/check_numbers.py
+ok: 23 claims match
+$ python tools/check_template_overlap.py
+19 of 50 bench sentences follow one of 61 generator templates: V1-01 V1-02 ...
+$ python -m unittest discover -s tests
+Ran 41 tests in 5.711s
+OK

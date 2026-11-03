@@ -1,0 +1,30 @@
+{
+ "nome": "grande_estrai",
+ "server": "http://127.0.0.1:8020",
+ "estrai_generate": {
+  "n": 200,
+  "server_ko": 0,
+  "json_non_valido": 0,
+  "esatte": 1.0
+ },
+ "estrai_50_scritte_da_noi": {
+  "n": 50,
+  "server_ko": 0,
+  "json_non_valido": 0,
+  "esatte": 0.96
+ },
+ "baseline_regex_generate": {
+  "n": 200,
+  "regex_decide": 0.88,
+  "esatte_dove_decide": 1.0,
+  "esatte_su_tutte": 0.88
+ },
+ "baseline_regex_50": {
+  "n": 50,
+  "regex_decide": 0.9,
+  "esatte_dove_decide": 1.0,
+  "esatte_su_tutte": 0.9
+ },
+ "secondi": 102.9,
+ "quando": "2026-10-31T06:52:34"
+}

@@ -1,0 +1,9 @@
+results/
+data/
+__pycache__/
+*.pyc
+*.env
+lfm-log/
+tools/forbidden_words.txt
+tools/label_map.local.json
+tools/rename.local.json

@@ -1,0 +1,29 @@
+{
+ "note": "Transcribed by hand from the Kaggle notebook logs of our two runs, as recorded in our run report of 2026-10-31 (the logs themselves are not published). The weights of both runs stay private (round 2 saw internal notes).",
+ "round_1_key_points": {
+  "date": "2026-10-30",
+  "gpu": "Kaggle free T4",
+  "cost_eur": 0,
+  "data": "synthetic only: 90 documents, split by document",
+  "train_examples": 2485,
+  "dev_examples": 338,
+  "epochs": 2,
+  "optimizer_steps": 310,
+  "minutes_approx": 20,
+  "lora": {"r": 16, "alpha": 32, "dropout": 0.05, "lr": 0.0002, "micro_batch": 4, "accumulation": 4}
+ },
+ "round_2_multi_task": {
+  "date": "2026-10-31",
+  "gpu": "Kaggle free T4",
+  "cost_eur": 0,
+  "data": "synthetic data plus sentences from our internal Obsidian knowledge base (no customer data)",
+  "train_examples": 13486,
+  "dev_examples": 1277,
+  "epochs": 3,
+  "optimizer_steps": 2526,
+  "seconds": 12160.7,
+  "dev_forced_exact_match": {"before": 0.3853, "epoch_1": 0.9152, "epoch_2": 0.9397, "epoch_3": 0.9479},
+  "merged_epoch": 3,
+  "lora": {"r": 16, "alpha": 32, "dropout": 0.05, "lr": 0.0002, "micro_batch": 4, "accumulation": 4}
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "nome": "grande_log",
+ "server": "http://127.0.0.1:8020",
+ "log": {
+  "generate": {
+   "n": 300,
+   "server_ko": 0,
+   "esatte": 0.993,
+   "per_classe": {
+    "rilevante": 1.0,
+    "rumore": 0.99
+   },
+   "classe_piu_frequente": 0.7,
+   "errori_piu_frequenti": [
+    [
+     "rumore->rilevante",
+     2
+    ]
+   ]
+  },
+  "veri": {
+   "n": 153,
+   "server_ko": 0,
+   "esatte": 0.915,
+   "per_classe": {
+    "rilevante": 0.857,
+    "rumore": 0.937
+   },
+   "classe_piu_frequente": 0.725,
+   "errori_piu_frequenti": [
+    [
+     "rumore->rilevante",
+     7
+    ],
+    [
+     "rilevante->rumore",
+     6
+    ]
+   ]
+  }
+ },
+ "secondi": 207.2,
+ "quando": "2026-10-31T06:50:50"
+}

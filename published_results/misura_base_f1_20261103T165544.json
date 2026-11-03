@@ -1,0 +1,48 @@
+{
+ "nome": "base_f1",
+ "server": "http://127.0.0.1:8018",
+ "log": {
+  "generate": {
+   "n": 300,
+   "server_ko": 0,
+   "esatte": 0.317,
+   "per_classe": {
+    "rilevante": 0.989,
+    "rumore": 0.029
+   },
+   "classe_piu_frequente": 0.7,
+   "errori_piu_frequenti": [
+    [
+     "rumore->rilevante",
+     204
+    ],
+    [
+     "rilevante->rumore",
+     1
+    ]
+   ]
+  },
+  "veri": {
+   "n": 153,
+   "server_ko": 0,
+   "esatte": 0.288,
+   "per_classe": {
+    "rilevante": 0.929,
+    "rumore": 0.045
+   },
+   "classe_piu_frequente": 0.725,
+   "errori_piu_frequenti": [
+    [
+     "rumore->rilevante",
+     106
+    ],
+    [
+     "rilevante->rumore",
+     3
+    ]
+   ]
+  }
+ },
+ "secondi": 227.8,
+ "quando": "2026-11-03T16:55:44"
+}

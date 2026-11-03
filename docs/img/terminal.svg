@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="474" viewBox="0 0 720 474" role="img" aria-labelledby="t d">
+<title id="t">Terminal: the extraction skill and the checks, run in this repository</title>
+<desc id="d">Terminal transcript: $ python -c "from lfm3_local import extract; print(extract.run('Il saldo di 450 euro va versato entro il 5 dicembre 2026.'))" / {'outcome': 'accepted', 'data': '2026-12-05', 'importo_euro': 450.0, 'source': 'regex', 'ms': 0} / $ python tools/check_numbers.py / ok: 23 claims match / $ python tools/check_template_overlap.py / 19 of 50 bench sentences follow one of 61 generator templates: V1-01 V1-02 ... / $ python -m unittest discover -s tests / Ran 41 tests in 5.711s / OK</desc>
+<style>text { font-family: -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; fill: #1F2328; } .s { fill: #59636E; } .m { font-family: ui-monospace, &quot;Cascadia Mono&quot;, Consolas, Menlo, monospace; }</style>
+<rect x="0.5" y="0.5" width="719" height="473" rx="14" fill="#FCFCFA" stroke="#D0D7DE"/>
+<rect x="20" y="20" width="680" height="424" rx="10" fill="#0D1117"/>
+<circle cx="48" cy="44" r="7" fill="#FF5F57"/>
+<circle cx="70" cy="44" r="7" fill="#FEBC2E"/>
+<circle cx="92" cy="44" r="7" fill="#28C840"/>
+<text x="44" y="90" font-size="18" class="m" style="fill: #7EE787">$ python -c "from lfm3_local import extract;</text>
+<text x="44" y="118" font-size="18" class="m" style="fill: #E6EDF3">  print(extract.run('Il saldo di 450 euro va versato entro</text>
+<text x="44" y="146" font-size="18" class="m" style="fill: #E6EDF3">  il 5 dicembre 2026.'))"</text>
+<text x="44" y="174" font-size="18" class="m" style="fill: #E6EDF3">{'outcome': 'accepted', 'data': '2026-12-05',</text>
+<text x="44" y="202" font-size="18" class="m" style="fill: #E6EDF3">  'importo_euro': 450.0, 'source': 'regex', 'ms': 0}</text>
+<text x="44" y="230" font-size="18" class="m" style="fill: #7EE787">$ python tools/check_numbers.py</text>
+<text x="44" y="258" font-size="18" class="m" style="fill: #E6EDF3">ok: 23 claims match</text>
+<text x="44" y="286" font-size="18" class="m" style="fill: #7EE787">$ python tools/check_template_overlap.py</text>
+<text x="44" y="314" font-size="18" class="m" style="fill: #E6EDF3">19 of 50 bench sentences follow one of 61 generator</text>
+<text x="44" y="342" font-size="18" class="m" style="fill: #E6EDF3">  templates: V1-01 V1-02 ...</text>
+<text x="44" y="370" font-size="18" class="m" style="fill: #7EE787">$ python -m unittest discover -s tests</text>
+<text x="44" y="398" font-size="18" class="m" style="fill: #E6EDF3">Ran 41 tests in 5.711s</text>
+<text x="44" y="426" font-size="18" class="m" style="fill: #E6EDF3">OK</text>
+</svg>

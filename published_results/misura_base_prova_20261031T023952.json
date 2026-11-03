@@ -1,0 +1,134 @@
+{
+ "nome": "base_prova",
+ "server": "http://127.0.0.1:8018",
+ "claim": {
+  "set A": {
+   "n": 80,
+   "server_ko": 0,
+   "esatte": 0.512,
+   "per_classe": {
+    "pulita": 1.0,
+    "vietata": 0.025
+   },
+   "classe_piu_frequente": 0.5,
+   "errori_piu_frequenti": [
+    [
+     "vietata->pulita",
+     39
+    ]
+   ],
+   "vietate_lasciate_passare": 39,
+   "vietate_totali": 40
+  },
+  "set B": {
+   "n": 80,
+   "server_ko": 0,
+   "esatte": 0.625,
+   "per_classe": {
+    "pulita": 1.0,
+    "vietata": 0.25
+   },
+   "classe_piu_frequente": 0.5,
+   "errori_piu_frequenti": [
+    [
+     "vietata->pulita",
+     30
+    ]
+   ],
+   "vietate_lasciate_passare": 30,
+   "vietate_totali": 40
+  },
+  "set C": {
+   "n": 80,
+   "server_ko": 0,
+   "esatte": 0.512,
+   "per_classe": {
+    "pulita": 1.0,
+    "vietata": 0.025
+   },
+   "classe_piu_frequente": 0.5,
+   "errori_piu_frequenti": [
+    [
+     "vietata->pulita",
+     39
+    ]
+   ],
+   "vietate_lasciate_passare": 39,
+   "vietate_totali": 40
+  },
+  "set D": {
+   "n": 80,
+   "server_ko": 0,
+   "esatte": 0.5,
+   "per_classe": {
+    "pulita": 1.0,
+    "vietata": 0.0
+   },
+   "classe_piu_frequente": 0.5,
+   "errori_piu_frequenti": [
+    [
+     "vietata->pulita",
+     40
+    ]
+   ],
+   "vietate_lasciate_passare": 40,
+   "vietate_totali": 40
+  },
+  "media_pesata": 0.537
+ },
+ "category": {
+  "n": 170,
+  "server_ko": 0,
+  "esatte": 0.194,
+  "per_classe": {
+   "cat 1": 0.083,
+   "cat 2": 0.0,
+   "cat 3": 0.056,
+   "cat 4": 1.0,
+   "cat 5": 0.292,
+   "cat 6": 0.0,
+   "cat 7": 0.5,
+   "cat 8": 0.0,
+   "cat 9": 0.333
+  },
+  "classe_piu_frequente": 0.3,
+  "errori_piu_frequenti": [
+   [
+    "cat 9->cat 10",
+    24
+   ],
+   [
+    "cat 1->cat 10",
+    16
+   ],
+   [
+    "cat 3->cat 10",
+    14
+   ],
+   [
+    "cat 5->cat 10",
+    14
+   ],
+   [
+    "cat 6->cat 10",
+    13
+   ],
+   [
+    "cat 1->cat 9",
+    9
+   ],
+   [
+    "cat 2->cat 10",
+    6
+   ],
+   [
+    "cat 6->cat 4",
+    5
+   ]
+  ],
+  "baseline_hand_written_label": 0.812,
+  "verita_ignota_esclusi": 19
+ },
+ "secondi": 435.2,
+ "quando": "2026-10-31T02:39:52"
+}

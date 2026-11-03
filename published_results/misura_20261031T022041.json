@@ -1,0 +1,32 @@
+{
+ "server": "http://127.0.0.1:8018",
+ "log": {
+  "n": 300,
+  "server_ko": 0,
+  "esatte": 0.26,
+  "per_classe": {
+   "rumore": 0.229,
+   "rilevante": 0.333
+  },
+  "maggioranza": 0.7
+ },
+ "estrai_generate": {
+  "n": 200,
+  "server_ko": 0,
+  "json_non_valido": 0,
+  "esatte": 0.46
+ },
+ "estrai_50_scritte_da_noi": {
+  "n": 50,
+  "server_ko": 0,
+  "json_non_valido": 0,
+  "esatte": 0.68
+ },
+ "baseline_regex_estrai_generate": {
+  "n": 200,
+  "regex_decide": 0.88,
+  "esatte_dove_decide": 1.0
+ },
+ "secondi": 252.1,
+ "quando": "2026-10-31T02:20:41"
+}

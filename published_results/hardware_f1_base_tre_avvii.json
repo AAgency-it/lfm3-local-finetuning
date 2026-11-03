@@ -1,0 +1,100 @@
+{
+ "quando": "2026-11-03",
+ "gpu": "NVIDIA GeForce GTX 1660 Ti, 621.01",
+ "vram_totale_mib": 6144,
+ "server": "base",
+ "quantizzazione": "Q4_K_M",
+ "prompt": "Write a numbered list of 40 common English nouns, one per line. (256 token, temperatura 0, 4 richieste, la prima scarta)",
+ "avvii": 3,
+ "vram_server_mib": [
+  1401
+ ],
+ "ram_server_mb": [
+  1477,
+  1479
+ ],
+ "tok_s_generazione_mediane": [
+  118.1,
+  100.6,
+  123.4
+ ],
+ "tok_s_generazione_min": 100.6,
+ "tok_s_generazione_max": 123.4,
+ "tok_s_prompt_mediane": [
+  416.9,
+  410.8,
+  459.4
+ ],
+ "ms_risposta_256_tok_mediane": [
+  2222,
+  2608,
+  2122
+ ],
+ "ms_risposta_256_tok_mediana_dei_tre": 2222,
+ "per_avvio": [
+  {
+   "server": "base",
+   "porta": "8018",
+   "quantizzazione": "Q4_K_M",
+   "file_gguf_byte": 1099627808,
+   "secondi_avvio": 12.1,
+   "vram_prima_mib": 563,
+   "ram_libera_prima_mb": 5526,
+   "vram_server_mib": 1401,
+   "ram_server_mb": 1477,
+   "tok_s_generazione_mediana": 118.1,
+   "tok_s_generazione": [
+    118.2,
+    118.1,
+    118.1
+   ],
+   "tok_s_prompt_mediana": 416.9,
+   "ms_risposta_256_tok_mediana": 2222,
+   "ram_server_mb_dopo_velocita": 1513,
+   "ora": "2026-11-03 16:51:41"
+  },
+  {
+   "server": "base",
+   "porta": "8018",
+   "quantizzazione": "Q4_K_M",
+   "file_gguf_byte": 1099627808,
+   "secondi_avvio": 29.1,
+   "vram_prima_mib": 670,
+   "ram_libera_prima_mb": 5883,
+   "vram_server_mib": 1401,
+   "ram_server_mb": 1479,
+   "tok_s_generazione_mediana": 100.6,
+   "tok_s_generazione": [
+    95.3,
+    106.4,
+    100.6
+   ],
+   "tok_s_prompt_mediana": 410.8,
+   "ms_risposta_256_tok_mediana": 2608,
+   "ram_server_mb_dopo_velocita": 1515,
+   "ora": "2026-11-03 17:16:42"
+  },
+  {
+   "server": "base",
+   "porta": "8018",
+   "quantizzazione": "Q4_K_M",
+   "file_gguf_byte": 1099627808,
+   "secondi_avvio": 3.0,
+   "vram_prima_mib": 653,
+   "ram_libera_prima_mb": 5651,
+   "vram_server_mib": 1401,
+   "ram_server_mb": 1479,
+   "tok_s_generazione_mediana": 123.4,
+   "tok_s_generazione": [
+    123.2,
+    124.7,
+    123.4
+   ],
+   "tok_s_prompt_mediana": 459.4,
+   "ms_risposta_256_tok_mediana": 2122,
+   "ram_server_mb_dopo_velocita": 1515,
+   "ora": "2026-11-03 18:00:34"
+  }
+ ],
+ "non_misurati": "i due modelli addestrati (Q8_0): misura fermata il 2026-11-03 (blocco di Smart App Control alle 17:54, poi arresto per memoria alle 18:00)"
+}

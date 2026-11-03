@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="676" viewBox="0 0 720 676" role="img" aria-labelledby="t d">
+<title id="t">How the small model works under a bigger one</title>
+<desc id="d">A bigger model (Claude) gives a narrow job with a prompt and a schema to LFM3 1.7B running locally on a 6 GB card. A check in code validates the answer: if it passes the answer is used, if it fails the job goes back to the bigger model. Every call is logged.</desc>
+<style>text { font-family: -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; fill: #1F2328; } .s { fill: #59636E; } .m { font-family: ui-monospace, &quot;Cascadia Mono&quot;, Consolas, Menlo, monospace; }</style>
+<rect x="0.5" y="0.5" width="719" height="675" rx="14" fill="#FCFCFA" stroke="#D0D7DE"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#59636E"/></marker></defs>
+<text x="40" y="52" font-size="30" font-weight="700">The small model works under a bigger one</text>
+<text x="40" y="84" font-size="20" class="s">It never decides alone: a code check accepts or rejects every answer.</text>
+<rect x="200" y="112" width="320" height="92" rx="10" fill="#FFFFFF" stroke="#59636E" stroke-width="2"/>
+<text x="360" y="146" font-size="21" font-weight="700" text-anchor="middle">Bigger model (Claude)</text>
+<text x="360" y="174" font-size="19" class="s" text-anchor="middle">gives a narrow job</text>
+<line x1="360" y1="204" x2="360" y2="252" stroke="#59636E" stroke-width="2" marker-end="url(#ah)"/>
+<text x="370" y="234" font-size="19" class="s">prompt + schema</text>
+<rect x="200" y="254" width="320" height="92" rx="10" fill="#FDF0EA" stroke="#eb6834" stroke-width="2"/>
+<text x="360" y="288" font-size="21" font-weight="700" text-anchor="middle">LFM3 1.7B, local</text>
+<text x="360" y="316" font-size="19" class="s" text-anchor="middle">6 GB card, no API bill</text>
+<line x1="360" y1="346" x2="360" y2="394" stroke="#59636E" stroke-width="2" marker-end="url(#ah)"/>
+<text x="370" y="376" font-size="19" class="s">answer</text>
+<rect x="200" y="396" width="320" height="92" rx="10" fill="#FFFFFF" stroke="#59636E" stroke-width="2"/>
+<text x="360" y="430" font-size="21" font-weight="700" text-anchor="middle">Check in code</text>
+<text x="360" y="458" font-size="19" class="s" text-anchor="middle">schema, values, rules</text>
+<line x1="360" y1="488" x2="360" y2="536" stroke="#59636E" stroke-width="2" marker-end="url(#ah)"/>
+<text x="370" y="518" font-size="19" class="s">passes</text>
+<rect x="200" y="538" width="320" height="64" rx="10" fill="#FFFFFF" stroke="#59636E" stroke-width="2"/>
+<text x="360" y="572" font-size="21" font-weight="700" text-anchor="middle">Answer used</text>
+<path d="M520 442 H620 V158 H528" fill="none" stroke="#59636E" stroke-width="2" marker-end="url(#ah)"/>
+<text x="632" y="290" font-size="19" class="s">fails:</text>
+<text x="632" y="316" font-size="19" class="s">back to</text>
+<text x="632" y="342" font-size="19" class="s">the big</text>
+<text x="632" y="368" font-size="19" class="s">model</text>
+<text x="40" y="646" font-size="19" class="s">Every call is logged: what was asked, the outcome, and whether it went back.</text>
+</svg>

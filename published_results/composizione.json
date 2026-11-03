@@ -1,0 +1,54 @@
+{
+ "chiave_primo_giro": [
+  2485,
+  338
+ ],
+ "chiave_notes_esclusi_dal_cloud": 47,
+ "chiave_sintetici_nuovi": "63 documenti in addestramento, 7 in sviluppo",
+ "chiave_notes": "113 documenti in addestramento, 14 in sviluppo",
+ "claim_set A": "300 tenuti (270 addestramento, 30 sviluppo), 0 tolti perché uguali o quasi a una frase del banco",
+ "claim_set B": "118 tenuti (98 addestramento, 20 sviluppo), 0 tolti perché uguali o quasi a una frase del banco",
+ "claim_set C": "116 tenuti (96 addestramento, 20 sviluppo), 1 tolti perché uguali o quasi a una frase del banco",
+ "claim_set D": "119 tenuti (99 addestramento, 20 sviluppo), 1 tolti perché uguali o quasi a una frase del banco",
+ "category": "830 tenuti (747 addestramento, 83 sviluppo), 2 tolti perché uguali o quasi a un titolo reale",
+ "tolti_per_frasi_dei_banchi_train": 48,
+ "tolti_per_frasi_dei_banchi_dev": 2,
+ "per_compito": {
+  "category": {
+   "train": 1494,
+   "dev": 83
+  },
+  "log": {
+   "train": 3200,
+   "dev": 300
+  },
+  "chiave": {
+   "train": 5076,
+   "dev": 605
+  },
+  "estrai": {
+   "train": 2592,
+   "dev": 199
+  },
+  "claim_set A": {
+   "train": 540,
+   "dev": 30
+  },
+  "claim_set B": {
+   "train": 196,
+   "dev": 20
+  },
+  "claim_set C": {
+   "train": 190,
+   "dev": 20
+  },
+  "claim_set D": {
+   "train": 198,
+   "dev": 20
+  }
+ },
+ "totale": {
+  "train": 13486,
+  "dev": 1277
+ }
+}

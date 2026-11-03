@@ -1,0 +1,12 @@
+{
+ "casi": 50,
+ "accettate": 32,
+ "giuste_fra_accettate": 32,
+ "copertura": 0.64,
+ "precisione": 1.0,
+ "baseline_regex_giuste": 45,
+ "baseline_regex_su": 50,
+ "ms_mediana": 404,
+ "errori_gravi": [],
+ "quando": "2026-10-30T13:12:32"
+}

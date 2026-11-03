@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="306" viewBox="0 0 720 306" role="img" aria-labelledby="t d">
+<title id="t">Timeline of the two fine-tuning runs</title>
+<desc id="d">Timeline: 2026-10-30 Base model: runs locally; 2026-10-30 Run 1: key sentences, F1 0.963; 2026-10-31 Run 2: 13,486 rows, 5 tasks; next Generic adapter: synthetic data only.</desc>
+<style>text { font-family: -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; fill: #1F2328; } .s { fill: #59636E; } .m { font-family: ui-monospace, &quot;Cascadia Mono&quot;, Consolas, Menlo, monospace; }</style>
+<rect x="0.5" y="0.5" width="719" height="305" rx="14" fill="#FCFCFA" stroke="#D0D7DE"/>
+<text x="40" y="52" font-size="30" font-weight="700">Two runs on a free GPU, 0 euro</text>
+<text x="40" y="84" font-size="20" class="s">One free Kaggle T4 each. The generic adapter is not trained yet.</text>
+<line x1="80" y1="170" x2="640" y2="170" stroke="#D0D7DE" stroke-width="3"/>
+<circle cx="80" cy="170" r="11" fill="#eb6834" stroke="#eb6834" stroke-width="3"/>
+<text x="80" y="144" font-size="18" class="s" text-anchor="middle">2026-10-30</text>
+<text x="80" y="216" font-size="20" font-weight="700" text-anchor="middle">Base model</text>
+<text x="80" y="244" font-size="18" class="s" text-anchor="middle">runs locally</text>
+<circle cx="267" cy="170" r="11" fill="#eb6834" stroke="#eb6834" stroke-width="3"/>
+<text x="267" y="144" font-size="18" class="s" text-anchor="middle">2026-10-30</text>
+<text x="267" y="216" font-size="20" font-weight="700" text-anchor="middle">Run 1</text>
+<text x="267" y="244" font-size="18" class="s" text-anchor="middle">key sentences</text>
+<text x="267" y="270" font-size="18" class="s" text-anchor="middle">F1 0.963</text>
+<circle cx="453" cy="170" r="11" fill="#eb6834" stroke="#eb6834" stroke-width="3"/>
+<text x="453" y="144" font-size="18" class="s" text-anchor="middle">2026-10-31</text>
+<text x="453" y="216" font-size="20" font-weight="700" text-anchor="middle">Run 2</text>
+<text x="453" y="244" font-size="18" class="s" text-anchor="middle">13,486 rows</text>
+<text x="453" y="270" font-size="18" class="s" text-anchor="middle">5 tasks</text>
+<circle cx="640" cy="170" r="11" fill="#FCFCFA" stroke="#eb6834" stroke-width="3" stroke-dasharray="4 3"/>
+<text x="640" y="144" font-size="18" class="s" text-anchor="middle">next</text>
+<text x="640" y="216" font-size="20" font-weight="700" text-anchor="middle">Generic adapter</text>
+<text x="640" y="244" font-size="18" class="s" text-anchor="middle">synthetic data only</text>
+</svg>

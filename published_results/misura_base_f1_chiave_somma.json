@@ -1,0 +1,49 @@
+{
+ "notes_AB": {
+  "documenti": 58,
+  "risposte_non_valide": 2,
+  "fette": 4,
+  "per_soglia": {
+   "0.3": {
+    "precisione": 0.058,
+    "richiamo": 0.366,
+    "f1": 0.1,
+    "tp": 53,
+    "fp": 861,
+    "fn": 92
+   },
+   "0.5": {
+    "precisione": 0.054,
+    "richiamo": 0.234,
+    "f1": 0.088,
+    "tp": 34,
+    "fp": 597,
+    "fn": 111
+   },
+   "0.7": {
+    "precisione": 0.049,
+    "richiamo": 0.138,
+    "f1": 0.073,
+    "tp": 20,
+    "fp": 385,
+    "fn": 125
+   }
+  },
+  "baseline_parole_chiave": {
+   "precisione": 0.167,
+   "richiamo": 0.338,
+   "f1": 0.223,
+   "tp": 49,
+   "fp": 245,
+   "fn": 96
+  }
+ },
+ "accordo_A_B": {
+  "frasi": 2629,
+  "concordi": 2574,
+  "chiave_per_entrambi": 145,
+  "solo_A": 20,
+  "solo_B": 35,
+  "kappa": 0.829
+ }
+}

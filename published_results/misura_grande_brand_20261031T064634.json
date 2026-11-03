@@ -1,0 +1,59 @@
+{
+ "nome": "grande_brand",
+ "server": "http://127.0.0.1:8020",
+ "category": {
+  "n": 170,
+  "server_ko": 0,
+  "esatte": 0.729,
+  "per_classe": {
+   "cat 1": 0.639,
+   "cat 2": 1.0,
+   "cat 3": 0.889,
+   "cat 4": 0.75,
+   "cat 5": 0.583,
+   "cat 6": 0.522,
+   "cat 7": 1.0,
+   "cat 8": 1.0,
+   "cat 9": 0.824
+  },
+  "classe_piu_frequente": 0.3,
+  "errori_piu_frequenti": [
+   [
+    "cat 1->cat 6",
+    7
+   ],
+   [
+    "cat 6->cat 1",
+    7
+   ],
+   [
+    "cat 1->cat 9",
+    4
+   ],
+   [
+    "cat 9->cat 6",
+    3
+   ],
+   [
+    "cat 5->cat 1",
+    3
+   ],
+   [
+    "cat 5->cat 6",
+    3
+   ],
+   [
+    "cat 9->cat 11",
+    2
+   ],
+   [
+    "cat 3->cat 12",
+    2
+   ]
+  ],
+  "baseline_hand_written_label": 0.812,
+  "verita_ignota_esclusi": 19
+ },
+ "secondi": 109.2,
+ "quando": "2026-10-31T06:46:34"
+}

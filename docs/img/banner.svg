@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="280" viewBox="0 0 720 280" role="img" aria-labelledby="t d">
+<title id="t">lfm3-local-finetuning</title>
+<desc id="d">A 1.7B model on a 6 GB gaming GPU, fine-tuned for 0 euro on a free cloud GPU, designed to work as the operator of a bigger model.</desc>
+<style>text { font-family: -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; fill: #1F2328; } .s { fill: #59636E; } .m { font-family: ui-monospace, &quot;Cascadia Mono&quot;, Consolas, Menlo, monospace; }</style>
+<rect x="0.5" y="0.5" width="719" height="279" rx="14" fill="#FCFCFA" stroke="#D0D7DE"/>
+<text x="40" y="70" font-size="36" font-weight="700" class="m">lfm3-local-finetuning</text>
+<text x="40" y="112" font-size="24">A 1.7B model on a 6 GB gaming GPU,</text>
+<text x="40" y="144" font-size="24">fine-tuned for 0 euro on a free cloud GPU,</text>
+<text x="40" y="176" font-size="24">designed to work as the operator of a bigger model.</text>
+<rect x="40" y="204" width="120" height="6" rx="3" fill="#eb6834"/>
+<text x="40" y="248" font-size="19" class="s">Real numbers, small benches, our own test. Measure on yours.</text>
+</svg>

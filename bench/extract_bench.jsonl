@@ -1,0 +1,50 @@
+{"id": "V1-01", "testo": "La fattura numero 118 di 1.250,50 euro scade il 14 novembre 2026.", "data": "2026-11-14", "importo_euro": 1250.5, "difficile": false}
+{"id": "V1-02", "testo": "Il bonifico da 480 € è stato fatto il 3/12/2026.", "data": "2026-12-03", "importo_euro": 480, "difficile": false}
+{"id": "V1-03", "testo": "Appuntamento fissato per lunedì 9 novembre 2026 alle 15, caparra di 200 euro.", "data": "2026-11-09", "importo_euro": 200, "difficile": false}
+{"id": "V1-04", "testo": "Consegna prevista entro il 21 dicembre 2026, saldo di 3.400 euro alla consegna.", "data": "2026-12-21", "importo_euro": 3400, "difficile": false}
+{"id": "V1-05", "testo": "Il preventivo, pari a 15.000 euro, vale fino al 30/11/2026.", "data": "2026-11-30", "importo_euro": 15000, "difficile": false}
+{"id": "V1-06", "testo": "Evento il 7 ottobre 2026 a Bari, biglietto 25 euro.", "data": "2026-10-07", "importo_euro": 25, "difficile": false}
+{"id": "V1-07", "testo": "Pagamento di 99,90 euro addebitato il 1° dicembre 2026.", "data": "2026-12-01", "importo_euro": 99.9, "difficile": false}
+{"id": "V1-08", "testo": "La rata mensile è di 312 euro, prima scadenza 15/01/2027.", "data": "2027-01-15", "importo_euro": 312, "difficile": false}
+{"id": "V1-09", "testo": "Rimborso di 57,30 euro accreditato il 2 novembre 2026.", "data": "2026-11-02", "importo_euro": 57.3, "difficile": false}
+{"id": "V1-10", "testo": "Ci vediamo il 25 novembre 2026 per firmare; il compenso concordato è di 2.800 euro.", "data": "2026-11-25", "importo_euro": 2800, "difficile": false}
+{"id": "V1-11", "testo": "Riunione spostata a venerdì 20 novembre 2026, nessun costo.", "data": "2026-11-20", "importo_euro": null, "difficile": false}
+{"id": "V1-12", "testo": "Il canone di 750 euro al mese non è ancora stato aggiornato.", "data": null, "importo_euro": 750, "difficile": false}
+{"id": "V1-13", "testo": "Il cantiere partirà il 12 gennaio 2027.", "data": "2027-01-12", "importo_euro": null, "difficile": false}
+{"id": "V1-14", "testo": "Abbiamo parlato a lungo del progetto e siamo tutti d'accordo.", "data": null, "importo_euro": null, "difficile": false}
+{"id": "V1-15", "testo": "Totale ordine 1.099 euro, spedizione gratuita, arrivo il 5/11/2026.", "data": "2026-11-05", "importo_euro": 1099, "difficile": false}
+{"id": "V1-16", "testo": "Scadenza del contratto: 31 marzo 2027. Penale di 500 euro in caso di recesso.", "data": "2027-03-31", "importo_euro": 500, "difficile": false}
+{"id": "V1-17", "testo": "Il corso costa 180,00 euro e inizia il 16 novembre 2026.", "data": "2026-11-16", "importo_euro": 180, "difficile": false}
+{"id": "V1-18", "testo": "Nessuna novità sul pagamento, ne riparliamo con calma.", "data": null, "importo_euro": null, "difficile": false}
+{"id": "V1-19", "testo": "Acconto del 30% pari a 1.500 euro da versare entro il 10 dicembre 2026.", "data": "2026-12-10", "importo_euro": 1500, "difficile": false}
+{"id": "V1-20", "testo": "Il 18/11/2026 abbiamo incassato 2.450,75 euro dal cliente.", "data": "2026-11-18", "importo_euro": 2450.75, "difficile": false}
+{"id": "V2-01", "testo": "Il saldo di € 1.200,00 va versato entro il 05-12-2026.", "data": "2026-12-05", "importo_euro": 1200, "difficile": false}
+{"id": "V2-02", "testo": "Bonifico di 300 EUR del 12.11.2026.", "data": "2026-11-12", "importo_euro": 300, "difficile": false}
+{"id": "V2-03", "testo": "Pagamento di 1200€ effettuato il 2026-11-03.", "data": "2026-11-03", "importo_euro": 1200, "difficile": false}
+{"id": "V2-04", "testo": "La caparra di 250 euro è stata versata il 14 nov. 2026.", "data": "2026-11-14", "importo_euro": 250, "difficile": false}
+{"id": "V2-05", "testo": "Consegna il 9 dicembre 2026; costo di duemila euro.", "data": "2026-12-09", "importo_euro": 2000, "difficile": true}
+{"id": "V2-06", "testo": "Il corso inizia il 3 novembre e costa 90 euro.", "data": null, "importo_euro": 90, "difficile": true}
+{"id": "V2-07", "testo": "Ci vediamo domani per il saldo di 450 euro.", "data": null, "importo_euro": 450, "difficile": true}
+{"id": "V2-08", "testo": "Scadenza tra 30 giorni, importo 800 euro.", "data": null, "importo_euro": 800, "difficile": true}
+{"id": "V2-09", "testo": "Il listino passa da 120 a 135 euro dal 1 gennaio 2027.", "data": "2027-01-01", "importo_euro": 120, "difficile": true}
+{"id": "V2-10", "testo": "Sconto del 15% sul totale di 2.000 euro entro il 20/12/2026.", "data": "2026-12-20", "importo_euro": 2000, "difficile": false}
+{"id": "V2-11", "testo": "Pagato in due rate da 500 euro, il 5 ottobre 2026 e il 5 novembre 2026.", "data": "2026-10-05", "importo_euro": 500, "difficile": true}
+{"id": "V2-12", "testo": "Il fatturato è cresciuto del 12% nel 2026.", "data": null, "importo_euro": null, "difficile": false}
+{"id": "V2-13", "testo": "Riunione il 16 novembre 2026 alle 18:30 in sede.", "data": "2026-11-16", "importo_euro": null, "difficile": false}
+{"id": "V2-14", "testo": "Il pacchetto da 3 sessioni costa 210 euro.", "data": null, "importo_euro": 210, "difficile": false}
+{"id": "V2-15", "testo": "Rimborso di 12,5 euro del 27/10/2026.", "data": "2026-10-27", "importo_euro": 12.5, "difficile": false}
+{"id": "V2-16", "testo": "Il 31 dicembre 2026 scade l'abbonamento da 49,99 euro all'anno.", "data": "2026-12-31", "importo_euro": 49.99, "difficile": false}
+{"id": "V2-17", "testo": "Partenza il 2 febbraio 2027, volo da 129 euro.", "data": "2027-02-02", "importo_euro": 129, "difficile": false}
+{"id": "V2-18", "testo": "Spedizione entro 5 giorni lavorativi, nessun costo aggiuntivo.", "data": null, "importo_euro": null, "difficile": false}
+{"id": "V2-19", "testo": "Appuntamento il 24/11/26 per il saldo di 75 euro.", "data": "2026-11-24", "importo_euro": 75, "difficile": false}
+{"id": "V2-20", "testo": "Il contratto del 15 maggio 2026 prevede 6.000 euro l'anno.", "data": "2026-05-15", "importo_euro": 6000, "difficile": false}
+{"id": "V2-21", "testo": "Mille euro di penale se si recede prima del 1 marzo 2027.", "data": "2027-03-01", "importo_euro": 1000, "difficile": true}
+{"id": "V2-22", "testo": "Ricordo che la scadenza è il 25 novembre 2026.", "data": "2026-11-25", "importo_euro": null, "difficile": false}
+{"id": "V2-23", "testo": "Il totale è 18 euro per 3 pezzi da 6 euro, ritiro il 7/11/2026.", "data": "2026-11-07", "importo_euro": 18, "difficile": true}
+{"id": "V2-24", "testo": "Compleanno di Marco il 3 marzo, regalo da 40 euro.", "data": null, "importo_euro": 40, "difficile": true}
+{"id": "V2-25", "testo": "In data 8 dicembre 2026 è stato emesso un buono da 100 euro.", "data": "2026-12-08", "importo_euro": 100, "difficile": false}
+{"id": "V2-26", "testo": "Lunedì 2 novembre 2026 si paga la rata di 1.350,25 euro.", "data": "2026-11-02", "importo_euro": 1350.25, "difficile": false}
+{"id": "V2-27", "testo": "Quota di iscrizione: 65 euro. Termine iscrizioni 14 dicembre 2026.", "data": "2026-12-14", "importo_euro": 65, "difficile": false}
+{"id": "V2-28", "testo": "La riunione del 10/11/2026 è stata rinviata, nessun importo da versare.", "data": "2026-11-10", "importo_euro": null, "difficile": false}
+{"id": "V2-29", "testo": "Offerta valida fino al 30 novembre 2026: 15 euro in meno.", "data": "2026-11-30", "importo_euro": 15, "difficile": false}
+{"id": "V2-30", "testo": "Penale di 5 € al giorno dopo il 1° ottobre 2026.", "data": "2026-10-01", "importo_euro": 5, "difficile": false}

@@ -1,0 +1,89 @@
+{
+ "nome": "grande_claim",
+ "server": "http://127.0.0.1:8020",
+ "claim": {
+  "set A": {
+   "n": 80,
+   "server_ko": 0,
+   "esatte": 0.963,
+   "per_classe": {
+    "pulita": 0.925,
+    "vietata": 1.0
+   },
+   "classe_piu_frequente": 0.5,
+   "errori_piu_frequenti": [
+    [
+     "pulita->vietata",
+     3
+    ]
+   ],
+   "vietate_lasciate_passare": 0,
+   "vietate_totali": 40
+  },
+  "set B": {
+   "n": 80,
+   "server_ko": 0,
+   "esatte": 0.988,
+   "per_classe": {
+    "pulita": 1.0,
+    "vietata": 0.975
+   },
+   "classe_piu_frequente": 0.5,
+   "errori_piu_frequenti": [
+    [
+     "vietata->pulita",
+     1
+    ]
+   ],
+   "vietate_lasciate_passare": 1,
+   "vietate_totali": 40
+  },
+  "set C": {
+   "n": 80,
+   "server_ko": 0,
+   "esatte": 0.925,
+   "per_classe": {
+    "pulita": 0.875,
+    "vietata": 0.975
+   },
+   "classe_piu_frequente": 0.5,
+   "errori_piu_frequenti": [
+    [
+     "pulita->vietata",
+     5
+    ],
+    [
+     "vietata->pulita",
+     1
+    ]
+   ],
+   "vietate_lasciate_passare": 1,
+   "vietate_totali": 40
+  },
+  "set D": {
+   "n": 80,
+   "server_ko": 0,
+   "esatte": 0.95,
+   "per_classe": {
+    "pulita": 0.925,
+    "vietata": 0.975
+   },
+   "classe_piu_frequente": 0.5,
+   "errori_piu_frequenti": [
+    [
+     "pulita->vietata",
+     3
+    ],
+    [
+     "vietata->pulita",
+     1
+    ]
+   ],
+   "vietate_lasciate_passare": 1,
+   "vietate_totali": 40
+  },
+  "media_pesata": 0.956
+ },
+ "secondi": 225.9,
+ "quando": "2026-10-31T06:44:28"
+}

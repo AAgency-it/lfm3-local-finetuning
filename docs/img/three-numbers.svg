@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="596" viewBox="0 0 720 596" role="img" aria-labelledby="t d">
+<title id="t">Three numbers: base model, fine-tuned model, no model</title>
+<desc id="d">Rule checks (320 sentences, accuracy): base 0.537, fine-tuned 0.956, no model 0.50. Key sentences (60 synthetic docs, F1): base 0.379, fine-tuned 0.963, no model 0.734. Date + amount (50 sentences, exact): base 0.68, fine-tuned 0.96, no model 0.90.</desc>
+<style>text { font-family: -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; fill: #1F2328; } .s { fill: #59636E; } .m { font-family: ui-monospace, &quot;Cascadia Mono&quot;, Consolas, Menlo, monospace; }</style>
+<rect x="0.5" y="0.5" width="719" height="595" rx="14" fill="#FCFCFA" stroke="#D0D7DE"/>
+<text x="40" y="52" font-size="30" font-weight="700">Three numbers, base vs fine-tuned</text>
+<text x="40" y="84" font-size="20" class="s">Scale 0 to 1. Fine-tuned numbers are ceilings: see the README.</text>
+<rect x="40" y="109" width="18" height="18" rx="4" fill="#2a78d6"/>
+<text x="66" y="124" font-size="20" class="s">base LFM3 1.7B</text>
+<rect x="227" y="109" width="18" height="18" rx="4" fill="#eb6834"/>
+<text x="253" y="124" font-size="20" class="s">fine-tuned</text>
+<rect x="372" y="109" width="18" height="18" rx="4" fill="#1baf7a"/>
+<text x="398" y="124" font-size="20" class="s">no model</text>
+<text x="40" y="176" font-size="21" font-weight="600">Rule checks (320 sentences, accuracy)</text>
+<rect x="40" y="190" width="236" height="26" rx="4" fill="#2a78d6"/>
+<text x="286" y="210" font-size="20" font-weight="600">0.537</text>
+<rect x="40" y="220" width="421" height="26" rx="4" fill="#eb6834"/>
+<text x="471" y="240" font-size="20" font-weight="600">0.956</text>
+<rect x="40" y="250" width="220" height="26" rx="4" fill="#1baf7a"/>
+<text x="270" y="270" font-size="20" font-weight="600">0.50</text>
+<text x="40" y="314" font-size="21" font-weight="600">Key sentences (60 synthetic docs, F1)</text>
+<rect x="40" y="328" width="167" height="26" rx="4" fill="#2a78d6"/>
+<text x="217" y="348" font-size="20" font-weight="600">0.379</text>
+<rect x="40" y="358" width="424" height="26" rx="4" fill="#eb6834"/>
+<text x="474" y="378" font-size="20" font-weight="600">0.963</text>
+<rect x="40" y="388" width="323" height="26" rx="4" fill="#1baf7a"/>
+<text x="373" y="408" font-size="20" font-weight="600">0.734</text>
+<text x="40" y="452" font-size="21" font-weight="600">Date + amount (50 sentences, exact)</text>
+<rect x="40" y="466" width="299" height="26" rx="4" fill="#2a78d6"/>
+<text x="349" y="486" font-size="20" font-weight="600">0.68</text>
+<rect x="40" y="496" width="422" height="26" rx="4" fill="#eb6834"/>
+<text x="472" y="516" font-size="20" font-weight="600">0.96</text>
+<rect x="40" y="526" width="396" height="26" rx="4" fill="#1baf7a"/>
+<text x="446" y="546" font-size="20" font-weight="600">0.90</text>
+</svg>

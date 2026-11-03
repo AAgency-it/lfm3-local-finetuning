@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="464" viewBox="0 0 720 464" role="img" aria-labelledby="t d">
+<title id="t">GPU memory and speed of the base model on a GTX 1660 Ti</title>
+<desc id="d">The server takes 1401 MiB of the 6144 MiB card. Generation speed in three separate starts: 118.1, 100.6, 123.4 tokens per second. The fine-tuned Q8_0 models were not measured here.</desc>
+<style>text { font-family: -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif; fill: #1F2328; } .s { fill: #59636E; } .m { font-family: ui-monospace, &quot;Cascadia Mono&quot;, Consolas, Menlo, monospace; }</style>
+<rect x="0.5" y="0.5" width="719" height="463" rx="14" fill="#FCFCFA" stroke="#D0D7DE"/>
+<text x="40" y="52" font-size="30" font-weight="700">One gaming card is enough to run it</text>
+<text x="40" y="84" font-size="20" class="s">GTX 1660 Ti, base LFM3 1.7B (Q4_K_M), measured 2026-11-03.</text>
+<text x="40" y="136" font-size="21" font-weight="600">GPU memory taken by the server</text>
+<rect x="40" y="152" width="640" height="30" rx="4" fill="#E4E7EB"/>
+<rect x="40" y="152" width="146" height="30" rx="4" fill="#2a78d6"/>
+<text x="40" y="212" font-size="20" font-weight="600">1,401 MiB of 6,144 MiB (23%)</text>
+<text x="40" y="270" font-size="21" font-weight="600">Generation speed, three separate starts</text>
+<line x1="40" y1="330" x2="660" y2="330" stroke="#D0D7DE" stroke-width="2"/>
+<line x1="40.0" y1="324" x2="40.0" y2="336" stroke="#D0D7DE" stroke-width="2"/>
+<text x="40" y="362" font-size="18" class="s" text-anchor="middle">0</text>
+<line x1="128.6" y1="324" x2="128.6" y2="336" stroke="#D0D7DE" stroke-width="2"/>
+<text x="129" y="362" font-size="18" class="s" text-anchor="middle">20</text>
+<line x1="217.1" y1="324" x2="217.1" y2="336" stroke="#D0D7DE" stroke-width="2"/>
+<text x="217" y="362" font-size="18" class="s" text-anchor="middle">40</text>
+<line x1="305.7" y1="324" x2="305.7" y2="336" stroke="#D0D7DE" stroke-width="2"/>
+<text x="306" y="362" font-size="18" class="s" text-anchor="middle">60</text>
+<line x1="394.3" y1="324" x2="394.3" y2="336" stroke="#D0D7DE" stroke-width="2"/>
+<text x="394" y="362" font-size="18" class="s" text-anchor="middle">80</text>
+<line x1="482.9" y1="324" x2="482.9" y2="336" stroke="#D0D7DE" stroke-width="2"/>
+<text x="483" y="362" font-size="18" class="s" text-anchor="middle">100</text>
+<line x1="571.4" y1="324" x2="571.4" y2="336" stroke="#D0D7DE" stroke-width="2"/>
+<text x="571" y="362" font-size="18" class="s" text-anchor="middle">120</text>
+<line x1="660.0" y1="324" x2="660.0" y2="336" stroke="#D0D7DE" stroke-width="2"/>
+<text x="660" y="362" font-size="18" class="s" text-anchor="middle">140</text>
+<circle cx="485.5" cy="330" r="9" fill="#2a78d6" stroke="#FCFCFA" stroke-width="2"/>
+<circle cx="563.0" cy="330" r="9" fill="#2a78d6" stroke="#FCFCFA" stroke-width="2"/>
+<circle cx="586.5" cy="330" r="9" fill="#2a78d6" stroke="#FCFCFA" stroke-width="2"/>
+<text x="40" y="404" font-size="20" font-weight="600">tokens per second: 118.1, 100.6, 123.4</text>
+<text x="40" y="434" font-size="19" class="s">Same machine and prompt: the speed changes from one start to the next.</text>
+</svg>

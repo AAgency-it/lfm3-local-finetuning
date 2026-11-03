@@ -1,0 +1,81 @@
+{
+ "documenti": 60,
+ "frasi": 1680,
+ "secondi": 619.9,
+ "soglia": 0.5,
+ "lfm": {
+  "precisione": 0.59,
+  "richiamo": 0.28,
+  "f1": 0.379,
+  "tp": 85,
+  "fp": 59,
+  "fn": 219
+ },
+ "baseline_parole_chiave": {
+  "precisione": 0.696,
+  "richiamo": 0.776,
+  "f1": 0.734,
+  "tp": 236,
+  "fp": 103,
+  "fn": 68
+ },
+ "per_soglia_ottimistico": {
+  "0.2": {
+   "precisione": 0.522,
+   "richiamo": 0.546,
+   "f1": 0.534,
+   "tp": 166,
+   "fp": 152,
+   "fn": 138
+  },
+  "0.3": {
+   "precisione": 0.533,
+   "richiamo": 0.428,
+   "f1": 0.474,
+   "tp": 130,
+   "fp": 114,
+   "fn": 174
+  },
+  "0.4": {
+   "precisione": 0.538,
+   "richiamo": 0.326,
+   "f1": 0.406,
+   "tp": 99,
+   "fp": 85,
+   "fn": 205
+  },
+  "0.5": {
+   "precisione": 0.59,
+   "richiamo": 0.28,
+   "f1": 0.379,
+   "tp": 85,
+   "fp": 59,
+   "fn": 219
+  },
+  "0.6": {
+   "precisione": 0.618,
+   "richiamo": 0.224,
+   "f1": 0.329,
+   "tp": 68,
+   "fp": 42,
+   "fn": 236
+  },
+  "0.7": {
+   "precisione": 0.625,
+   "richiamo": 0.181,
+   "f1": 0.281,
+   "tp": 55,
+   "fp": 33,
+   "fn": 249
+  },
+  "0.8": {
+   "precisione": 0.722,
+   "richiamo": 0.128,
+   "f1": 0.218,
+   "tp": 39,
+   "fp": 15,
+   "fn": 265
+  }
+ },
+ "quando": "2026-10-30T16:11:16"
+}

@@ -1,0 +1,88 @@
+{
+ "notes_AB": {
+  "documenti": 58,
+  "risposte_non_valide": 0,
+  "fette": 4,
+  "per_soglia": {
+   "0.3": {
+    "precisione": 0.277,
+    "richiamo": 0.821,
+    "f1": 0.415,
+    "tp": 119,
+    "fp": 310,
+    "fn": 26
+   },
+   "0.5": {
+    "precisione": 0.306,
+    "richiamo": 0.807,
+    "f1": 0.444,
+    "tp": 117,
+    "fp": 265,
+    "fn": 28
+   },
+   "0.7": {
+    "precisione": 0.333,
+    "richiamo": 0.772,
+    "f1": 0.466,
+    "tp": 112,
+    "fp": 224,
+    "fn": 33
+   }
+  },
+  "baseline_parole_chiave": {
+   "precisione": 0.167,
+   "richiamo": 0.338,
+   "f1": 0.223,
+   "tp": 49,
+   "fp": 245,
+   "fn": 96
+  }
+ },
+ "accordo_A_B": {
+  "frasi": 2629,
+  "concordi": 2574,
+  "chiave_per_entrambi": 145,
+  "solo_A": 20,
+  "solo_B": 35,
+  "kappa": 0.829
+ },
+ "sintetico_primo_giro": {
+  "documenti": 60,
+  "risposte_non_valide": 0,
+  "fette": 3,
+  "per_soglia": {
+   "0.3": {
+    "precisione": 0.97,
+    "richiamo": 0.967,
+    "f1": 0.969,
+    "tp": 294,
+    "fp": 9,
+    "fn": 10
+   },
+   "0.5": {
+    "precisione": 0.973,
+    "richiamo": 0.961,
+    "f1": 0.967,
+    "tp": 292,
+    "fp": 8,
+    "fn": 12
+   },
+   "0.7": {
+    "precisione": 0.976,
+    "richiamo": 0.951,
+    "f1": 0.963,
+    "tp": 289,
+    "fp": 7,
+    "fn": 15
+   }
+  },
+  "baseline_parole_chiave": {
+   "precisione": 0.696,
+   "richiamo": 0.776,
+   "f1": 0.734,
+   "tp": 236,
+   "fp": 103,
+   "fn": 68
+  }
+ }
+}
