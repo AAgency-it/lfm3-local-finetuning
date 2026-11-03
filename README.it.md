@@ -34,7 +34,7 @@ Come leggerla:
 
 Il secondo addestramento ha richiesto circa 3 h 20 min su una T4 gratuita di Kaggle (dal log del notebook, trascritto a mano), con 13.486 righe di addestramento, per 0 euro.
 
-<p align="center"><img src="docs/img/timeline.svg" alt="Linea del tempo: modello di base, giro 1, giro 2, adattatore generico non ancora addestrato" width="720"></p>
+<p align="center"><img src="docs/img/timeline.svg" alt="Linea del tempo: modello di base, giro 1, giro 2, adattatore generico su dati sintetici" width="720"></p>
 
 ## Che cosa abbiamo fatto
 
@@ -80,8 +80,16 @@ Che cosa puoi rifare da questo repository, e che cosa no:
 | Regole di scrittura, log veri, categorie, note vere | No: i banchi vengono da materiale privato; qui ci sono solo i risultati aggregati |
 | Il file di addestramento del giro 2 | No: i prompt dei compiti e una parte dei dati sono privati |
 
-Una strada pubblica completa (generatori → file di addestramento → GPU gratuita → banco, coi modelli di frase separati fra addestramento e
-prova) è il nostro prossimo passo: un adattatore generico addestrato solo su dati sintetici nuovi.
+Una strada pubblica completa (generatori → file di addestramento → GPU gratuita → banco) è `training/build_generic.py` + `training/kaggle_notebook.ipynb`.
+L'abbiamo percorsa il 2026-11-03: un adattatore generico addestrato solo su dati sintetici nuovi (2.730 righe, 2 epoche, 1.176,8 s su una T4
+gratuita). Su un banco sintetico di 649 righe costruito con un altro seme, la corrispondenza esatta forzata passa da **0,016** a **0,996**
+sull'estrazione e da **0,2005** a **0,9925** sulle righe di log (baseline: regex **0,884**, «sempre rumore» **0,774**). Il banco viene dagli
+stessi generatori dei dati di addestramento, con semi diversi (stessa distribuzione), e 19 delle 50 frasi di estrazione scritte a mano
+seguono un modello di frase che usa anche il generatore (`tools/check_template_overlap.py`): mostra che l'adattatore ha imparato questi due
+formati, non come va su testi veri. Non abbiamo un numero a parte per le 50 frasi scritte a mano: il giro ha registrato un punteggio per
+compito, e i pesi dell'adattatore non sono ancora scaricati. Lo 0,016 del modello di base non vuol dire un modello rotto: la corrispondenza
+esatta forzata conta giusta una risposta solo se ogni token della risposta attesa, in questo formato d'uscita esatto, è il più probabile
+per il modello, e il modello di base questo formato non l'ha mai visto.
 
 ```
 # 1. avvia il server (docs/install.md)
@@ -119,7 +127,7 @@ In `tools/` ci sono i controlli che lanciamo prima di ogni commit: `check_clean.
 | Codice, generatori di dati sintetici, il banco di 50 frasi per l'estrazione, script di addestramento | I due modelli addestrati: il secondo ha visto le nostre note interne |
 | Numeri aggregati, con clienti e categorie rinominati (set A-D, cat 1-12) | Le nostre note, i banchi costruiti da esse, i titoli dei task e i log veri |
 
-L'adattatore generico si pubblica solo se batte il modello di base, con la licenza LFM allegata (vedi [NOTICE](NOTICE)).
+L'adattatore generico batte il modello di base sul suo banco; i pesi non sono ancora in questo repository e, se li pubblicheremo, avranno la licenza LFM allegata (vedi [NOTICE](NOTICE)).
 
 ## Licenze
 

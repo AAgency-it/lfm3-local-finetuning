@@ -32,7 +32,7 @@ How to read it:
 
 The second fine-tuning took about 3 h 20 min on a free Kaggle T4 (from the notebook log, transcribed by hand), with 13,486 training rows, for 0 euro.
 
-<p align="center"><img src="docs/img/timeline.svg" alt="Timeline: base model, run 1, run 2, generic adapter not trained yet" width="720"></p>
+<p align="center"><img src="docs/img/timeline.svg" alt="Timeline: base model, run 1, run 2, generic adapter on synthetic data" width="720"></p>
 
 ## What we did
 
@@ -79,8 +79,15 @@ What you can redo from this repository, and what you cannot:
 | Rule sets, real logs, categories, real notes | No: the benches are built from private material; only aggregate results are here |
 | The training file of run 2 | No: its task prompts and part of its data are private |
 
-A complete public path (generators → training file → free GPU → bench, with sentence templates kept apart between training and test) is
-our next step: a generic adapter trained only on new synthetic data.
+A complete public path (generators → training file → free GPU → bench) is `training/build_generic.py` + `training/kaggle_notebook.ipynb`.
+We ran it on 2026-11-03: a generic adapter trained only on new synthetic data (2,730 rows, 2 epochs, 1,176.8 s on a free T4). On a
+synthetic bench of 649 rows built with another seed, forced exact match went from **0.016** to **0.996** on extraction and from **0.2005**
+to **0.9925** on log lines (baselines: regex **0.884**, "always noise" **0.774**). The bench comes from the same generators as the
+training data, with different seeds (in distribution), and 19 of the 50 hand-written extraction sentences in it follow a template the
+generator also uses (`tools/check_template_overlap.py`): it shows the adapter learned these two formats, not how it does on real text.
+We have no separate number for the 50 hand-written sentences: the run logged one score per task, and the adapter weights are not
+downloaded yet. The base model's 0.016 does not mean a broken model: forced exact match counts an answer as right only if every
+token of the expected answer, in this exact output format, is the model's most likely one, and the base model never saw this format.
 
 ```
 # 1. start the server (docs/install.md)
@@ -118,7 +125,7 @@ Tested on Windows 11 with Python 3.14. The skills use only the standard library;
 | Code, synthetic data generators, the 50-sentence extraction bench, training scripts | The two fine-tuned models: the second one saw our internal notes |
 | Aggregate numbers, with customers and categories renamed (set A-D, cat 1-12) | Our notes, the benches built from them, real task titles and logs |
 
-The generic adapter will be published only if it beats the base model, with the LFM license attached (see [NOTICE](NOTICE)).
+The generic adapter beats the base model on its bench; its weights are not in this repository yet and, if we publish them, they will come with the LFM license attached (see [NOTICE](NOTICE)).
 
 ## Licenses
 

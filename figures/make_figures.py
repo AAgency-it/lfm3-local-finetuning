@@ -169,9 +169,9 @@ def hardware():
 
 def timeline(c):
     pts = [('2026-10-30', 'Base model', 'runs locally'), ('2026-10-30', 'Run 1', f'key sentences, F1 {num(c["kp_round1"])}'),
-           ('2026-10-31', 'Run 2', f'{int(c["round2_rows"]):,} rows, 5 tasks'), ('next', 'Generic adapter', 'synthetic data only')]
-    b = t(40, 52, 'Two runs on a free GPU, 0 euro', 30, 700)
-    b += t(40, 84, 'One free Kaggle T4 each. The generic adapter is not trained yet.', 20, cls='s')
+           ('2026-10-31', 'Run 2', f'{int(c["round2_rows"]):,} rows, 5 tasks'), ('2026-11-03', 'Generic adapter', 'synthetic only, bench 0.994')]
+    b = t(40, 52, 'Three runs on a free GPU', 30, 700)
+    b += t(40, 84, 'One free Kaggle T4 each, 0 euro.', 20, cls='s')
     x0, x1, y = 80, W - 80, 170
     b += f'<line x1="{x0}" y1="{y}" x2="{x1}" y2="{y}" stroke="{BORDER}" stroke-width="3"/>\n'
     step = (x1 - x0) / (len(pts) - 1)
@@ -186,7 +186,7 @@ def timeline(c):
         for j, part in enumerate(what.split(', ')):
             b += t(x, y + 74 + 26 * j, part, 18, cls='s', anchor='middle')
     desc = 'Timeline: ' + '; '.join(f'{d} {n}: {w}' for d, n, w in pts) + '.'
-    return svg(y + 136, 'Timeline of the two fine-tuning runs', desc, b)
+    return svg(y + 136, 'Timeline of the three fine-tuning runs', desc, b)
 
 
 def terminal():

@@ -21,5 +21,9 @@
  {"key": "notes_kp_base", "file": "misura_base_f1_chiave_somma.json", "path": ["notes_AB", "per_soglia", "0.5", "f1"], "value": 0.088, "digits": 3},
  {"key": "logs_base", "file": "misura_base_f1_20261103T165544.json", "path": "log.veri.esatte", "value": 0.288, "digits": 3},
  {"key": "extract_template_overlap", "file": "extract_template_overlap.json", "path": "following_a_template", "value": 19, "digits": 0},
- {"key": "extract_base_pipeline_accepted", "file": "extract_20261030T155002.json", "path": "accettate", "value": 47, "digits": 0}
+ {"key": "extract_base_pipeline_accepted", "file": "extract_20261030T155002.json", "path": "accettate", "value": 47, "digits": 0},
+ {"key": "gen_base_extract", "file": "adapter_generic_20261103.json", "path": "bench_base.per_task.extract", "value": 0.016, "digits": 3},
+ {"key": "gen_adapter_extract", "file": "adapter_generic_20261103.json", "path": "bench_adapter_ep2.per_task.extract", "value": 0.996, "digits": 3},
+ {"key": "gen_base_logs", "file": "adapter_generic_20261103.json", "path": "bench_base.per_task.logs", "value": 0.2005, "digits": 4},
+ {"key": "gen_adapter_logs", "file": "adapter_generic_20261103.json", "path": "bench_adapter_ep2.per_task.logs", "value": 0.9925, "digits": 4}
 ]
